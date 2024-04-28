@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "name": "Cheesy Garlic Bread",
+        "price": 3.49,
+        "type": ".filter-starters",
+        "image": "/assets/img/garlicbread.webp"
+    },
+    {
+        "id": 2,
+        "name": "Seasoned Fries",
+        "price": 3.99,
+        "type": ".filter-starters",
+        "image": "/assets/img/fries.webp"
+    },
+    {
+        "id": 3,
+        "name": "Mozzarella Sticks",
+        "price": 4.49,
+        "type": ".filter-starters",
+        "image": "/assets/img/mozzorella.png"
+    },
+    {
+        "id": 4,
+        "name": "Buffalo Chicken Tenders",
+        "price": 5.99,
+        "type": ".filter-starters",
+        "image": "/assets/img/buffalotenders.webp"
+    },
+    {
+        "id": 5,
+        "name": "Pulled Pork Sliders(3 pcs)",
+        "price": 7.49,
+        "type": ".filter-entrée",
+        "image": "/assets/img/pulledpork.png"
+    },
+    {
+        "id": 6,
+        "name": "House Salad",
+        "price": 7.49,
+        "type": ".filter-entrée",
+        "image": "/assets/img/housesalad.webp"
+    },
+    {
+        "id": 7,
+        "name": "Teriyaki Chicken Bowl",
+        "price": 7.99,
+        "type": ".filter-entrée",
+        "image": "/assets/img/teriyakichicken.webp"
+    },
+    {
+        "id": 8,
+        "name": "Vegetarian Wrap",
+        "price": 7.99,
+        "type": ".filter-entrée",
+        "image": "/assets/img/wrap.png"
+    },
+    {
+        "id": 9,
+        "name": "Chicken Alfredo Pasta",
+        "price": 8.49,
+        "type": ".filter-entrée",
+        "image": "/assets/img/chickenalfredo.webp"
+    },
+    {
+        "id": 10,
+        "name": "Bibimbap (Non-Vegan/Vegan)",
+        "price": 8.49,
+        "type": ".filter-entrée",
+        "image": "/assets/img/bipbimbap.webp"
+    },
+    {
+        "id": 11,
+        "name": "Fountain Drink",
+        "price": 2.49,
+        "type": ".filter-dessert",
+        "image": "/assets/img/soda.webp"
+    },
+    {
+        "id": 12,
+        "name": "Cheesecake Slice (Classic/Matcha)",
+        "price": 2.99,
+        "type": ".filter-dessert",
+        "image": "/assets/img/cheesecake.webp"
+    },
+    {
+        "id": 13,
+        "name": " Milk Tea",
+        "price": 4.49,
+        "type": ".filter-dessert",
+        "image": "/assets/img/boba.webp"
+    },
+    {
+        "id": 14,
+        "name": "Milkshake",
+        "price": 4.99,
+        "type": ".filter-dessert",
+        "image": "/assets/img/milkshakes.webp"
+    }
+
+]

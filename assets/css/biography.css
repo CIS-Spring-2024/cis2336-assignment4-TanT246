@@ -1,0 +1,91 @@
+body{/*Setting the font and alignment of the page*/
+    margin: 0; /*Prevent overflow*/
+    padding: 0; 
+    height: 100vh;
+    background-image: url(../img/sugarland.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FAF9F6;
+    display: flex; /*Align the box to be in the center*/
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box{ /*Decorating the box to make a glass filter, and aligning the texts to be in the middle*/
+    width: 60%; 
+    height: 85%; 
+    max-width: 80rem; 
+    padding: 2rem; 
+    border-radius: 10px; 
+    text-align: center; 
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    box-shadow: 0 0 1.3rem rgb(255, 255, 255, 0.8);
+}
+.box h1{ /*Decorating the Biography title*/
+    font-weight: bolder;
+    font-size: 3rem;
+    transition: .3s;
+    text-decoration: underline;
+    color: #F4AC45;
+}
+.box h1:hover{ /*Hover effect*/
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+.box h2{ /*Decorating my name*/
+    font-weight: bolder;
+    font-size: 2rem;
+    transition: ease-in-out;
+    color: #F4AC45;
+}
+.box h2:hover{ /*Hover effect*/
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+.box img{ /*Profile Picture*/
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    transition: .3s;
+}
+.box img:hover{ /*Hover effect*/
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+.description{
+    text-align: center;
+    padding: 0 3.5rem;
+    font-size: 1.2rem;
+}
+button{ /*Decorating the text*/
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    background-color: #F4AC45;
+    color: black;
+    transition: .7s;
+}
+button:hover{ /*Hover effect*/
+    background: #E8E288;
+    color: black;
+    border: 1px solid #081B4B;
+    transition: .5s;
+}
+@media screen and (max-width: 1500px){ /*Make it work with any screen size*/
+    .box{ /*Prevent overflow*/
+        width: 80%; 
+        height: 60%; 
+        overflow-x: hidden; 
+        overflow-y: auto; 
+    }
+    .box::-webkit-scrollbar {
+        width: 0; /*Hide scroll bar*/
+    }
+}
